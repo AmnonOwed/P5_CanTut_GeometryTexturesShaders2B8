@@ -35,7 +35,7 @@ Displacing a sphere outwards through GLSL with separate color and displacement m
 Displacing a sphere outwards through GLSL with shader-based procedural noise instead of a displacement map texture.
 
 ####GLSL_TextureMix
-Creating a smooth mix between multiple (to a GLModel applied) textures in the fragment shader.
+Creating a smooth mix between multiple textures in the fragment shader.
 
 ####MultiTexturedSphereGLSL
 Applying a GLSL shader with multiple input textures to the TexturedSphere example.
@@ -44,7 +44,7 @@ Applying a GLSL shader with multiple input textures to the TexturedSphere exampl
 Creating an animation by using texture coordinates to read from a spritesheet.
 
 ####TexturedSphere
-Creating a correctly textured sphere by subdividing an icosahedron. Using GLGraphics to store / display the shape.
+Creating a correctly textured sphere by subdividing an icosahedron.
 
 ####TexturedSphereGLSL
-Adding a basic GLSL shader for dynamic lighting to the TexturedSphere example. Shows how to apply shaders to a GLModel.
+Adding a basic GLSL shader for dynamic lighting to the TexturedSphere example.
