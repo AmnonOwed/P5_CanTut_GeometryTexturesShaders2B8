@@ -45,7 +45,7 @@ void setup() {
 
   displace = loadShader("displaceFrag.glsl", "displaceVert.glsl"); // load the PShader with a fragment and a vertex shader
   displace.set("displaceStrength", displaceStrength); // set the displaceStrength
-  resetMaps();
+  resetMaps(); // set the color and displacement maps
   heightMap = createPlane(dim, dim); // create the heightmap PShape (see custom creation method) and put it in the global heightMap reference
 }
 
@@ -123,7 +123,7 @@ void resetMaps() {
   displace.set("displacementMap", displacementMaps[currentDisplacementMap]);
 }
 
-// method to set the displacementMap used in the GLSL vertex shader
+// convenience method to create a smooth displacementMap
 PImage imageToDisplacementMap(PImage img) {
   PImage imgCopy = img.get(); // get a copy so the original remains intact
   imgCopy.resize(int(imgCopy.width*resizeFactor), int(imgCopy.height*resizeFactor)); // resize
