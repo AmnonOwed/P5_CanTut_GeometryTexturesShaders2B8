@@ -15,7 +15,7 @@
  c = toggle clouds texture layer
  l = toggle light source or night view
 
- Built with Processing 1.5.1 + GLGraphics 1.0.0
+ Built with Processing 2.0b8
 
  Free low-resolution earth textures (day, night, specular, clouds) courtesy of:
  http://planetpixelemporium.com/earth.html
@@ -41,12 +41,13 @@ void setup() {
   earth = createIcosahedron(subdivisionLevel); // create the subdivided icosahedron PShape (see custom creation method) and put it in the global earth reference
   shader = loadShader("shaderFrag.glsl", "shaderVert.glsl"); // load the PShader with a fragment and a vertex shader
 
-  // load the 4 PImages and connect them to the shader (get higher resolution textures for better quality visuals)
+  // load the 4 PImages (get higher resolution textures for better quality visuals)
   PImage tex0 = loadImage("earthmap1k.jpg"); // day
   PImage tex1 = loadImage("earthlights1k.jpg"); // night
   PImage tex2 = loadImage("earthspec1k.jpg"); // specular
   PImage tex3 = loadImage("earthcloudmap.jpg"); // clouds
 
+  // Connect the images to the shader as textures
   shader.set("EarthDay", tex0);
   shader.set("EarthNight", tex1);
   shader.set("EarthGloss", tex2);
