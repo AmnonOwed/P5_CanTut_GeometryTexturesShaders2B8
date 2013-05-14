@@ -35,7 +35,7 @@ void setup() {
 
   displace = loadShader("displaceFrag.glsl", "displaceVert.glsl"); // load the PShader with a fragment and a vertex shader
   displace.set("displaceStrength", displaceStrength); // set the displaceStrength
-  displace.set("colorMap", images[currentColorMap]);
+  displace.set("colorMap", images[currentColorMap]); // set the initial colorMap
 
   heightMap = createPlane(dim, dim); // create the heightmap PShape (see custom creation method) and put it in the global heightMap reference
 }
@@ -52,7 +52,7 @@ void draw() {
   scale(750); // scale by 750 (the model itself is unit length
 
   displace.set("time", millis()/5000.0); // feed time to the GLSL shader
-  shader(displace);
+  shader(displace); // use shader
   shape(heightMap); // display the PShape
 
   // write the fps and the current colorMap in the top-left of the window
@@ -110,6 +110,6 @@ PShape createPlane(int xsegs, int ysegs) {
 }
 
 void keyPressed() {
-  if (key == 'c') { currentColorMap = ++currentColorMap%images.length; displace.set("colorMap", images[currentColorMap]); } // cycle through colorMaps (set variable and set setColormap in PShader)
+  if (key == 'c') { currentColorMap = ++currentColorMap%images.length; displace.set("colorMap", images[currentColorMap]); } // cycle through colorMaps (set variable and set colorMap in PShader)
 }
 

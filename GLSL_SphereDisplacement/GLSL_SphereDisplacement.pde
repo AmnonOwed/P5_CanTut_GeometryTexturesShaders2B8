@@ -61,7 +61,7 @@ void draw() {
   perspective(PI/3.0, (float) width/height, 0.1, 1000000); // perspective for close shapes
   scale(100); // scale by 100
 
-  shader(displace);
+  shader(displace); // use shader
   shape(sphere); // display the PShape
 
   // write the fps, the current colorMap and the current displacementMap in the top-left of the window
@@ -83,7 +83,7 @@ PImage imageToDisplacementMap(PImage img) {
 }
 
 void keyPressed() {
-  if (key == 'c') { currentColorMap = ++currentColorMap%colorMaps.length; resetMaps(); } // cycle through colorMaps (set variable and call setColormap method)
-  if (key == 'd') { currentDisplacementMap = ++currentDisplacementMap%displacementMaps.length; resetMaps(); } // cycle through displacementMaps (set variable and call setDisplacement method)
+  if (key == 'c') { currentColorMap = ++currentColorMap%colorMaps.length; resetMaps(); } // cycle through colorMaps (set variable and call resetMaps() method)
+  if (key == 'd') { currentDisplacementMap = ++currentDisplacementMap%displacementMaps.length; resetMaps(); } // cycle through displacementMaps (set variable and call resetMaps() method)
 }
 
