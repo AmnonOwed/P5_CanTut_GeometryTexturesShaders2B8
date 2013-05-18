@@ -12,7 +12,7 @@
  LEFT MOUSE BUTTON = toggle between black/white background
  RIGHT MOUSE BUTTON = toggle the use of lights()
  
- Built with Processing 2.0b8
+ Built with Processing 2.0b8 / 2.0b9
  
 */
 

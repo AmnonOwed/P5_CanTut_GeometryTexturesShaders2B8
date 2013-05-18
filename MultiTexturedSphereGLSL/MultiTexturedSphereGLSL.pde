@@ -15,7 +15,7 @@
  c = toggle clouds texture layer
  l = toggle light source or night view
 
- Built with Processing 2.0b8
+ Built with Processing 2.0b8 / 2.0b9
 
  Free low-resolution earth textures (day, night, specular, clouds) courtesy of:
  http://planetpixelemporium.com/earth.html

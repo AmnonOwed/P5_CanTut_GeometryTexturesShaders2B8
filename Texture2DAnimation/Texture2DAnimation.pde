@@ -11,7 +11,7 @@
  MOUSE MOVE = change the scale of individual instances based on the distance from the mouse
               (note that a negative scale is possible, this will scale AND invert the shape!)
 
- Built with Processing 2.0b8
+ Built with Processing 2.0b8 / 2.0b9
 
  Spritesheet created by Amnon Owed using Illustrator's blend mode... not recommended! ;-)
 

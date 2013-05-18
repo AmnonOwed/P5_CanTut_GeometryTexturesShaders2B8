@@ -16,7 +16,7 @@
 
  +/- = zoom out / zoom in
 
- Built with Processing 2.0b8
+ Built with Processing 2.0b8 / 2.0b9
 
  For higher quality visuals, higher resolution textures are advised.
 
