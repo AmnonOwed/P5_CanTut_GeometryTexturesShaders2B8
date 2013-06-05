@@ -9,7 +9,7 @@
  For more information about Shapes see: http://processing.org/reference/beginShape_.html
  This example also displays OpenGL's automatic color interpolation between vertices.
 
- Built with Processing 2.0b8 / 2.0b9
+ Built with Processing 2.0b8 / 2.0b9 / 2.0 Final
 
 */
 

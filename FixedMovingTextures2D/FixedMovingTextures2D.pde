@@ -10,7 +10,7 @@
  
  MOUSE PRESS = change texture
  
- Built with Processing 2.0b8 / 2.0b9
+ Built with Processing 2.0b8 / 2.0b9 / 2.0 Final
  
  Photographs by Folkert Gorter (@folkertgorter / http://superfamous.com/) made available under a CC Attribution 3.0 license.
  

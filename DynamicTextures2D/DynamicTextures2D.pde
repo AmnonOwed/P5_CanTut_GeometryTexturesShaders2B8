@@ -10,7 +10,7 @@
 
  HORIZONTAL MOUSE MOVE = change the density of the grid
 
- Built with Processing 2.0b8 / 2.0b9
+ Built with Processing 2.0b8 / 2.0b9 / 2.0 Final
 
 */
 
