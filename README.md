@@ -12,41 +12,41 @@ As a service during 2.0 development and since Processing 2.0 Final has been rele
 
 Note: To save some space, many of these sketches share one central **_Images** folder!
 
-####Custom2DGeometry
+#### Custom2DGeometry
 Creating a custom 2D shape with interpolated colors using beginShape-vertex-endShape.
 
-####Custom3DGeometry
+#### Custom3DGeometry
 Creating a custom 3D shape with interpolated colors using beginShape-vertex-endShape.
 
-####DynamicTextures2D
+#### DynamicTextures2D
 Creating textured QUADS with dynamically generated texture coordinates.
 
-####FixedMovingTextures2D
+#### FixedMovingTextures2D
 Creating MOVING custom 2D shapes with either FIXED or MOVING textures. See the difference.
 
-####GLSL_Heightmap
+#### GLSL_Heightmap
 Creating a heightmap through GLSL with separate color and displacement maps that can be changed in realtime.
 
-####GLSL_HeightmapNoise
+#### GLSL_HeightmapNoise
 Creating a GLSL heightmap running on shader-based procedural noise instead of a displacement map texture.
 
-####GLSL_SphereDisplacement
+#### GLSL_SphereDisplacement
 Displacing a sphere outwards through GLSL with separate color and displacement maps that can be changed in realtime.
 
-####GLSL_SphereDisplacementNoise
+#### GLSL_SphereDisplacementNoise
 Displacing a sphere outwards through GLSL with shader-based procedural noise instead of a displacement map texture.
 
-####GLSL_TextureMix
+#### GLSL_TextureMix
 Creating a smooth mix between multiple textures in the fragment shader.
 
-####MultiTexturedSphereGLSL
+#### MultiTexturedSphereGLSL
 Applying a GLSL shader with multiple input textures to the TexturedSphere example.
 
-####Texture2DAnimation
+#### Texture2DAnimation
 Creating an animation by using texture coordinates to read from a spritesheet.
 
-####TexturedSphere
+#### TexturedSphere
 Creating a correctly textured sphere by subdividing an icosahedron.
 
-####TexturedSphereGLSL
+#### TexturedSphereGLSL
 Adding a basic GLSL shader for dynamic lighting to the TexturedSphere example.
